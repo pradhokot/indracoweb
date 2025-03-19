@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 }
 
 // tautan
-$ucafe = "http://localhost/www/build/indracoweb/ucafe/";
+$ucafe = "http://localhost/www/build/indracoweb/ucafe-php/";
 
 
 // =======================================
