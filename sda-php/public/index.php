@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SDA &bull; Fluid Power Company</title>
+   <link rel="shortcut icon" href="../assets/img/sda.ico" type="image/x-icon">
+   <link rel="stylesheet" href="../assets/vendors/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../assets/vendors/fontawesome-free-6.7.2-web/css/all.min.css">
+   <link rel="stylesheet" href="../assets/fonts/HelveticaNeue/HelveticaNeue.css">
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/landing.css">
+   <script src="../assets/vendors/jquery-3.7.1.min.js.js"></script>
+   <script src="../assets/vendors/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+   <style>
+      * {
+         outline: solid 1px green;
+         outline: solid 1px transparent;
+      }
+   </style>
+</head>
+<body>
+   <div class="page">
+      <header class="page-header">
+         <?php include 'layout/navbar.php' ?>
+      </header><!-- end page wrapper -->
+      <main class="page-content">
+         <section>
+            <div class="jumbotron vh-100" id="home-banner" style="background-color: var(--color-light); color: var(--color-primary); background-image: linear-gradient(to bottom, var(--color-light), transparent, transparent), url(../assets/img/home-banner.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;">
+               <div class="container h-100 d-flex align-items-center py-5">
+                  <h5 class="display-2 m-0 lh-1">
+                     <b class="fw-bold">
+                        HYDRAULICS <br>
+                        PNEUMATICS <br>
+                        ENGINEERING
+                     </b>
+                  </h5>
+               </div><!-- end container -->
+            </div><!-- end home banner -->
+         </section>
+         <section class="page-section">
+            <div class="container-fluid p-0">
+               <div class="row g-0 row-cols-1 row-cols-lg-2 align-items-lg-center">
+                  <div class="col">
+                     <div class="ratio ratio-16x9 text-bg-dark">
+                        <img src="" class="object-fit-cover" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col p-4 p-md-5">
+                     <p class="m-0 text-justify">
+                        SDA Fluid Power takes pride in its reputation as a reliable and customer-centric organization. Since our inception on June 2, 1992, we have remained committed to fulfilling our customers' needs.
+                        <br><br>
+                        Starting with hydraulic and pneumatic products, we expanded our portfolio to include industrial applications. Our knowledgeable team offers friendly advice based on years of combined experience and friendly demeanor.
+                     </p>
+                  </div><!-- end col -->
+               </div><!-- end row -->
+            </div><!-- end container -->
+         </section><!-- end page section -->
+         <section style="background-color: var(--color-light);">
+            <div class="container py-5">
+               <header>
+                  <h5 class="text-center fs-1 mb-5">
+                     <span class="fw-thin">Our</span> <b class="fw-bold">Products</b>
+                  </h5>
+               </header>
+               <div class="row g-0 row-cols-1 row-cols-lg-2 align-items-lg-center text-center text-md-start row-gap-lg-5" id="home-products-list">
+                  <div class="col">
+                     <div class="ratio ratio-21x9 text-bg-dark rounded-4 overflow-hidden">
+                        <img src="" class="object-fit-cover" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col py-4 px-lg-5">
+                     <h5 class="display-5 fw-thin">
+                        Fluid Conveying
+                     </h5>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam numquam, culpa eaque eligendi eos, non illo sint qui porro quaerat esse amet. Commodi veniam neque quasi omnis dolorem nisi.
+                     </p>
+                  </div><!-- end col -->
+                  <div class="col">
+                     <div class="ratio ratio-21x9 text-bg-dark rounded-4 overflow-hidden">
+                        <img src="" class="object-fit-cover" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col py-4 px-lg-5">
+                     <h5 class="display-5 fw-thin">
+                        Hydraulic Power & Control
+                     </h5>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam numquam, culpa eaque eligendi eos, non illo sint qui porro quaerat esse amet. Commodi veniam neque quasi omnis dolorem nisi.
+                     </p>
+                  </div><!-- end col -->
+                  <div class="col">
+                     <div class="ratio ratio-21x9 text-bg-dark rounded-4 overflow-hidden">
+                        <img src="" class="object-fit-cover" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col py-4 px-lg-5">
+                     <h5 class="display-5 fw-thin">
+                        Pneumatic Power & Control
+                     </h5>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam numquam, culpa eaque eligendi eos, non illo sint qui porro quaerat esse amet. Commodi veniam neque quasi omnis dolorem nisi.
+                     </p>
+                  </div><!-- end col -->
+                  <div class="col">
+                     <div class="ratio ratio-21x9 text-bg-dark rounded-4 overflow-hidden">
+                        <img src="" class="object-fit-cover" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col py-4 px-lg-5">
+                     <h5 class="display-5 fw-thin">
+                        Engineering
+                     </h5>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam numquam, culpa eaque eligendi eos, non illo sint qui porro quaerat esse amet. Commodi veniam neque quasi omnis dolorem nisi.
+                     </p>
+                  </div><!-- end col -->
+                  <div class="col">
+                     <div class="ratio ratio-21x9 text-bg-dark rounded-4 overflow-hidden">
+                        <img src="" class="object-fit-cover" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col py-4 px-lg-5">
+                     <h5 class="display-5 fw-thin">
+                        Industrial
+                     </h5>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam numquam, culpa eaque eligendi eos, non illo sint qui porro quaerat esse amet. Commodi veniam neque quasi omnis dolorem nisi.
+                     </p>
+                  </div><!-- end col -->
+                  <div class="col">
+                     <div class="ratio ratio-21x9 text-bg-dark rounded-4 overflow-hidden">
+                        <img src="" class="object-fit-cover" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col py-4 px-lg-5">
+                     <h5 class="display-5 fw-thin">
+                        Material Handling Equipment
+                     </h5>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam numquam, culpa eaque eligendi eos, non illo sint qui porro quaerat esse amet. Commodi veniam neque quasi omnis dolorem nisi.
+                     </p>
+                  </div><!-- end col -->
+                  <div class="col">
+                     <div class="ratio ratio-21x9 text-bg-dark rounded-4 overflow-hidden">
+                        <img src="" class="object-fit-cover" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col py-4 px-lg-5">
+                     <h5 class="display-5 fw-thin">
+                        Metal
+                     </h5>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam numquam, culpa eaque eligendi eos, non illo sint qui porro quaerat esse amet. Commodi veniam neque quasi omnis dolorem nisi.
+                     </p>
+                  </div><!-- end col -->
+               </div><!-- end row -->
+            </div><!-- end container -->
+         </section>
+         <section>
+            <div class="container py-5">
+               <header class="text-center text-md-start">
+                  <h5 class="fs-1">
+                     <span class="fw-thin">Our</span> <b class="fw-bold">Brands</b>
+                  </h5>
+                  <p class="mb-5">
+                     We offer industry leading brands and expertly engineered solutions for all your Fluid Power needs.
+                  </p>
+               </header>
+               <div class="row g-1 row-cols-2 g-md-2 row-cols-lg-3 row-cols-xxl-4" id="home-brands-list">
+                  <div class="col brands-item">
+                     <div class="ratio ratio-21x9">
+                        <img src="" class="brands-img" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col brands-item">
+                     <div class="ratio ratio-21x9">
+                        <img src="" class="brands-img" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col brands-item">
+                     <div class="ratio ratio-21x9">
+                        <img src="" class="brands-img" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col brands-item">
+                     <div class="ratio ratio-21x9">
+                        <img src="" class="brands-img" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col brands-item">
+                     <div class="ratio ratio-21x9">
+                        <img src="" class="brands-img" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col brands-item">
+                     <div class="ratio ratio-21x9">
+                        <img src="" class="brands-img" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col brands-item">
+                     <div class="ratio ratio-21x9">
+                        <img src="" class="brands-img" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col brands-item">
+                     <div class="ratio ratio-21x9">
+                        <img src="" class="brands-img" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col brands-item">
+                     <div class="ratio ratio-21x9">
+                        <img src="" class="brands-img" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col brands-item">
+                     <div class="ratio ratio-21x9">
+                        <img src="" class="brands-img" alt="">
+                     </div>
+                  </div><!-- end col -->
+               </div><!-- end row -->
+            </div><!-- end container -->
+         </section>
+      </main><!-- end page content -->
+      <footer class="page-footer">
+      <?php include 'layout/footbar.php' ?>
+      </footer><!-- end page footer -->
+   </div><!-- end page -->
+   <?php include 'layout/btn-whatsapp.php' ?>
+   <script src="js/custom.js"></script>
+   <script>
+      $('.nav-home').addClass('active');
+   </script>
+</body>
+</html>

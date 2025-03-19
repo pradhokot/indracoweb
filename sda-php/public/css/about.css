@@ -1,0 +1,23 @@
+.advantage-item {
+   color: white;
+
+   & > * {
+      padding: 1.5rem;
+
+      @media (min-width: 1200px) {
+         padding: 2rem;
+      }
+   }
+
+   .col-lg-5 {
+      background-color: var(--color-primary);
+
+      .ratio {
+         max-width: 6rem;
+      }
+   }
+
+   .col-lg-7 {
+      background-color: var(--color-dark);
+   }
+}
