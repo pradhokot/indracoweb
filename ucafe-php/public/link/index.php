@@ -154,7 +154,7 @@ require '../../vardat/conn.php';
                   <a href="<?php echo $ucafe ?>public/" target="_blank" class="text-decoration-none">
                      <div class="row g-0">
                         <div class="col col-auto">
-                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-store.js"></script>
+                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-web.js"></script>
                         </div><!-- end col -->
                         <div class="col">
                            website
@@ -168,13 +168,47 @@ require '../../vardat/conn.php';
             </li><!-- end link item -->
             <li>
                <div class="container">
-                  <a href="#" target="_blank" class="text-decoration-none">
+                  <a href="https://indracostore.com/" target="_blank" class="text-decoration-none">
                      <div class="row g-0">
                         <div class="col col-auto">
                            <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-store.js"></script>
                         </div><!-- end col -->
                         <div class="col">
-                           website
+                           store
+                        </div><!-- end col -->
+                        <div class="col col-auto">
+                           <i class="fas fa-chevron-right"></i>
+                        </div><!-- end col -->
+                     </div><!-- end row -->
+                  </a>
+               </div><!-- end container -->
+            </li><!-- end link item -->
+            <li>
+               <div class="container">
+                  <a href="https://www.lazada.sg/indraco/?spm=a2o42.10453684.0.0.35673768WZJ735&q=All-Products&shop_category_ids=547623&from=wangpu&sc=KVUG" target="_blank" class="text-decoration-none">
+                     <div class="row g-0">
+                        <div class="col col-auto">
+                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-lazada.js"></script>
+                        </div><!-- end col -->
+                        <div class="col">
+                           lazada
+                        </div><!-- end col -->
+                        <div class="col col-auto">
+                           <i class="fas fa-chevron-right"></i>
+                        </div><!-- end col -->
+                     </div><!-- end row -->
+                  </a>
+               </div><!-- end container -->
+            </li><!-- end link item -->
+            <li>
+               <div class="container">
+                  <a href="https://shopee.sg/shop/572571069/search?shopCollection=134760266" target="_blank" class="text-decoration-none">
+                     <div class="row g-0">
+                        <div class="col col-auto">
+                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-shopee.js"></script>
+                        </div><!-- end col -->
+                        <div class="col">
+                           shopee
                         </div><!-- end col -->
                         <div class="col col-auto">
                            <i class="fas fa-chevron-right"></i>
@@ -188,10 +222,10 @@ require '../../vardat/conn.php';
                   <a href="#" target="_blank" class="text-decoration-none">
                      <div class="row g-0">
                         <div class="col col-auto">
-                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-store.js"></script>
+                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-tokopedia.js"></script>
                         </div><!-- end col -->
                         <div class="col">
-                           website
+                           tokopedia
                         </div><!-- end col -->
                         <div class="col col-auto">
                            <i class="fas fa-chevron-right"></i>
@@ -202,115 +236,13 @@ require '../../vardat/conn.php';
             </li><!-- end link item -->
             <li>
                <div class="container">
-                  <a href="#" target="_blank" class="text-decoration-none">
+                  <a href="<?php echo $ucafe ?>public/findus/" target="_blank" class="text-decoration-none">
                      <div class="row g-0">
                         <div class="col col-auto">
-                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-store.js"></script>
+                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-map.js"></script>
                         </div><!-- end col -->
                         <div class="col">
-                           website
-                        </div><!-- end col -->
-                        <div class="col col-auto">
-                           <i class="fas fa-chevron-right"></i>
-                        </div><!-- end col -->
-                     </div><!-- end row -->
-                  </a>
-               </div><!-- end container -->
-            </li><!-- end link item -->
-            <li>
-               <div class="container">
-                  <a href="#" target="_blank" class="text-decoration-none">
-                     <div class="row g-0">
-                        <div class="col col-auto">
-                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-store.js"></script>
-                        </div><!-- end col -->
-                        <div class="col">
-                           website
-                        </div><!-- end col -->
-                        <div class="col col-auto">
-                           <i class="fas fa-chevron-right"></i>
-                        </div><!-- end col -->
-                     </div><!-- end row -->
-                  </a>
-               </div><!-- end container -->
-            </li><!-- end link item -->
-            <li>
-               <div class="container">
-                  <a href="#" target="_blank" class="text-decoration-none">
-                     <div class="row g-0">
-                        <div class="col col-auto">
-                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-store.js"></script>
-                        </div><!-- end col -->
-                        <div class="col">
-                           website
-                        </div><!-- end col -->
-                        <div class="col col-auto">
-                           <i class="fas fa-chevron-right"></i>
-                        </div><!-- end col -->
-                     </div><!-- end row -->
-                  </a>
-               </div><!-- end container -->
-            </li><!-- end link item -->
-            <li>
-               <div class="container">
-                  <a href="#" target="_blank" class="text-decoration-none">
-                     <div class="row g-0">
-                        <div class="col col-auto">
-                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-store.js"></script>
-                        </div><!-- end col -->
-                        <div class="col">
-                           website
-                        </div><!-- end col -->
-                        <div class="col col-auto">
-                           <i class="fas fa-chevron-right"></i>
-                        </div><!-- end col -->
-                     </div><!-- end row -->
-                  </a>
-               </div><!-- end container -->
-            </li><!-- end link item -->
-            <li>
-               <div class="container">
-                  <a href="#" target="_blank" class="text-decoration-none">
-                     <div class="row g-0">
-                        <div class="col col-auto">
-                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-store.js"></script>
-                        </div><!-- end col -->
-                        <div class="col">
-                           website
-                        </div><!-- end col -->
-                        <div class="col col-auto">
-                           <i class="fas fa-chevron-right"></i>
-                        </div><!-- end col -->
-                     </div><!-- end row -->
-                  </a>
-               </div><!-- end container -->
-            </li><!-- end link item -->
-            <li>
-               <div class="container">
-                  <a href="#" target="_blank" class="text-decoration-none">
-                     <div class="row g-0">
-                        <div class="col col-auto">
-                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-store.js"></script>
-                        </div><!-- end col -->
-                        <div class="col">
-                           website
-                        </div><!-- end col -->
-                        <div class="col col-auto">
-                           <i class="fas fa-chevron-right"></i>
-                        </div><!-- end col -->
-                     </div><!-- end row -->
-                  </a>
-               </div><!-- end container -->
-            </li><!-- end link item -->
-            <li>
-               <div class="container">
-                  <a href="#" target="_blank" class="text-decoration-none">
-                     <div class="row g-0">
-                        <div class="col col-auto">
-                           <script src="<?php echo $ucafe ?>assets/img/marketplace/icon-store.js"></script>
-                        </div><!-- end col -->
-                        <div class="col">
-                           website
+                           find us
                         </div><!-- end col -->
                         <div class="col col-auto">
                            <i class="fas fa-chevron-right"></i>
@@ -327,24 +259,24 @@ require '../../vardat/conn.php';
             <div class="row row-gap-4 row-gap-md-5">
                <div class="col">
                   <nav class="d-flex flex-wrap gap-3">
-                     <a href="#" target="_blank" class="text-decoration-none">
+                     <!-- <a href="#" target="_blank" class="text-decoration-none">
                         <i class="fab fa-x-twitter fa-lg"></i>
-                     </a>
-                     <a href="#" target="_blank" class="text-decoration-none">
+                     </a> -->
+                     <a href="https://www.facebook.com/ucafe.id" target="_blank" class="text-decoration-none">
                         <i class="fab fa-facebook-f fa-lg"></i>
                      </a>
-                     <a href="#" target="_blank" class="text-decoration-none">
+                     <a href="http://www.instagram.com/ucafecoffee" target="_blank" class="text-decoration-none">
                         <i class="fab fa-instagram fa-lg"></i>
                      </a>
-                     <a href="#" target="_blank" class="text-decoration-none">
+                     <a href="https://www.youtube.com/channel/UCVt8N8rd_pDgyf8oGx0xFIg" target="_blank" class="text-decoration-none">
                         <i class="fab fa-youtube fa-lg"></i>
                      </a>
-                     <a href="#" target="_blank" class="text-decoration-none">
+                     <!-- <a href="#" target="_blank" class="text-decoration-none">
                         <i class="fab fa-tiktok fa-lg"></i>
-                     </a>
-                     <a href="#" target="_blank" class="text-decoration-none">
+                     </a> -->
+                     <!-- <a href="#" target="_blank" class="text-decoration-none">
                         <i class="fab fa-linkedin-in fa-lg"></i>
-                     </a>
+                     </a> -->
                   </nav>
                </div><!-- end col -->
                <div class="col col-auto opacity-50">

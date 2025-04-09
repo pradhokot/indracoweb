@@ -19,14 +19,20 @@ require '../../vardat/products.php';
          outline: solid 1px transparent;
       }
 
+      .page-header {
+         background-color: <?php echo $data['color1']; ?>;
+      }
+      #detail-product {
+         background-image: linear-gradient(to bottom, <?php echo $data['color1']; ?>, <?php echo $data['color2']; ?>);
+      }
       #carousel-related-product .carousel-item {
-         background-color: <?php echo $data['color']; ?> !important;
+         background-color: <?php echo $data['color2']; ?>;
       }
    </style>
 </head>
 
 <body>
-   <div class="page" style="background-color: <?php echo $data['color']; ?> !important;">
+   <div class="page" style="background-color: <?php echo $data['color2']; ?>;">
       <header class="page-header">
          <?php include '../layout/navbar.php' ?>
          <?php include '../layout/navside.php' ?>
@@ -116,7 +122,7 @@ require '../../vardat/products.php';
                </div><!-- end row -->
             </div><!-- end container -->
          </section>
-         <section class="py-5" id="related-product">
+         <section class="py-5 overflow-hidden" id="related-product">
             <div class="container">
                <h5 class="fs-3 mb-5">
                   <b class="fw-medium">
