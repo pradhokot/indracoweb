@@ -27,7 +27,7 @@ $(document).ready(function () {
       // $('.page').addClass('bg-primary');
       
       // remove dropdown toggler attribbute
-      $('#nav-product, #nav-store')
+      $('.dropdown>a.nav-link')
          .removeAttr('href')
          .attr('data-bs-toggle', 'dropdown')
          .attr('data-bs-target', '#dropdownMenu');

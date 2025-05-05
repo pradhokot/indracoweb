@@ -23,6 +23,7 @@
    column-gap: 1rem;
    padding-top: 1.25rem;
    padding-bottom: 1.25rem;
+   transition: .3s ease-in-out;
 }
 
 .navbrand>img {
@@ -132,8 +133,12 @@
    .navtop.container {
       grid-template-columns: auto 1fr;
       column-gap: 2rem;
-      padding-top: 2rem;
+      padding-top: 3.5rem;
       padding-bottom: 1rem;
+   }
+   .navbar.on-scroll .navtop.container {
+      padding-top: 1.5rem;
+      padding-bottom: .5rem;
    }
 
    .navtop .submenu {
@@ -224,11 +229,11 @@
 
 /* ========================================= min width XXL */
 @media (min-width: 1400px) {
-   #menu .menu-list {
-      margin-left: -.5rem;
+   /* #menu .menu-list {
+      margin-left: -.25rem;
    }
    #menu .menu-link {
-      padding-left: 1.5rem !important;
-      padding-right: 1.5rem !important;
-   }
+      padding-left: 1.25rem !important;
+      padding-right: 1.25rem !important;
+   } */
 }/* end min width XXL */

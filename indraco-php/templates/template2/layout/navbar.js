@@ -666,7 +666,7 @@ document.writeln(`
                </li><!-- end nav news -->
                <li class="nav-item menu-item">
                   <a href="#" class="nav-link menu-link" id="nav-brochure">
-                     <span>brochure</span>
+                     <span>brosur</span>
                   </a>
                </li><!-- end nav brochure -->
                <li class="nav-item menu-item">
