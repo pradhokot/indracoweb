@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script src="layout/head.js"></script>
+   <title>UANG EMAS &bull; Riwayat</title>
+   <link rel="stylesheet" href="css/after login/styles.css">
+   <style>
+      * {
+         outline: solid 1px green;
+         outline: solid 1px transparent;
+      }
+   </style>
+</head>
+<body>
+   <div class="page">
+      <header class="page-header">
+         <script src="layout/navbar-after-login.js"></script>
+      </header><!-- end page header -->
+      <main class="page-body">
+         <section>
+            <div class="container">
+               <h5 class="fs-2 mb-4">Kupon yang Anda miliki</h5>
+               <div class="table-responsive text-nowrap">
+                  <table class="table table-striped text-center table-bordered">
+                     <thead class="table-group-divider">
+                        <tr>
+                           <th>NO.</th>
+                           <th>KODE UNIK</th>
+                           <th>TANGGAL</th>
+                           <th>STATUS</th>
+                           <th>PREVIEW</th>
+                           <th>HADIAH</th>
+                           <th>STATUS HADIAH</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>1.</td>
+                           <td>FYTQ09</td>
+                           <td>10.10.2025</td>
+                           <td><span class="text-success"><b class="fw-medium">VALID</b></span></td>
+                           <td><button class="btn btn-sm btn-primary w-100" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">FOTO KUPON</button></td>
+                           <td>-</td>
+                           <td>-</td>
+                        </tr>
+                        <tr>
+                           <td>2.</td>
+                           <td>FYTQ09</td>
+                           <td>10.10.2025</td>
+                           <td><span class="text-success"><b class="fw-medium">VALID</b></span></td>
+                           <td><button class="btn btn-sm btn-primary w-100" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">FOTO KUPON</button></td>
+                           <td>-</td>
+                           <td>-</td>
+                        </tr>
+                        <tr>
+                           <td>3.</td>
+                           <td>FYTQ09</td>
+                           <td>10.10.2025</td>
+                           <td><span class="text-success"><b class="fw-medium">VALID</b></span></td>
+                           <td><button class="btn btn-sm btn-primary w-100" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">FOTO KUPON</button></td>
+                           <td>-</td>
+                           <td>-</td>
+                        </tr>
+                        <tr>
+                           <td>4.</td>
+                           <td>FYTQ09</td>
+                           <td>10.10.2025</td>
+                           <td><span class="text-success"><b class="fw-medium">VALID</b></span></td>
+                           <td><button class="btn btn-sm btn-primary w-100" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">FOTO KUPON</button></td>
+                           <td>-</td>
+                           <td>-</td>
+                        </tr>
+                        <tr>
+                           <td>5.</td>
+                           <td>FYTQ09</td>
+                           <td>10.10.2025</td>
+                           <td><span class="text-success"><b class="fw-medium">VALID</b></span></td>
+                           <td><button class="btn btn-sm btn-primary w-100" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">FOTO KUPON</button></td>
+                           <td>-</td>
+                           <td>-</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div><!-- end container -->
+         </section>
+      </main><!-- end page body -->
+      <footer class="page-footer">
+         <script src="layout/footbar.js"></script>
+      </footer><!-- end page footer -->
+   </div><!-- end page -->
+
+   <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+         <div class="modal-content">
+            <div class="modal-header">
+               <div class="row g-0 w-100 align-items-center" style="display: grid; grid-template-columns: 1fr auto 1fr;">
+                  <div class="col">
+                     <img src="assets/img/logo-ue.png" width="100%" height="auto" alt="" style="max-width: 4rem;">
+                  </div><!-- end col -->
+                  <div class="col">
+                     <h5 class="modal-title display-6 m-0 text-center" style="color: var(--color-primary);">
+                        <b class="fw-bold">FYTQ09</b>
+                     </h5>
+                  </div><!-- end col -->
+                  <div class="col position-relative h-100">
+                     <button type="button" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div><!-- end col -->
+               </div><!-- end row -->
+            </div>
+            <div class="modal-body bg-light">
+               <div class="container-fluid py-4">
+                  <div class="ratio ratio-16x9 bg-dark-subtle mb-4"></div>
+                  <p>
+                     *Simpan kartu khusus yang bertuliskan kode unik sebagai syarat validasi bila terpilih menjadi pemenang undian. 
+                  </p>
+               </div><!-- end container -->
+            </div>
+         </div>
+      </div>
+   </div><!-- end modal input code -->
+
+   <script src="js/scripts.js"></script>
+   <script src="js/after login/scripts.js"></script>
+   <script>
+      $(document).ready(function() {
+         $(".title-page").text('Riwayat');
+         $('#nav-history').addClass('active');
+      });
+   </script>
+</body>
+</html>

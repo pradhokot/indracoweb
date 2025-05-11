@@ -1,0 +1,65 @@
+/* ----------------------- navbar */
+.navbar {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1030;
+
+   @media (min-width: 992px) {
+      bottom: unset;
+      top: 0;
+   }
+
+   .nav-link {
+      position: relative;
+      border: solid 2px currentColor;
+      border-radius: .5rem;
+      height: 3.2rem;
+      width: 3.2rem;
+      background-color: var(--color-primary);
+      box-shadow: 0 0 0 rgba(0, 0, 0, .5);
+      transition: .3s ease-in-out;
+
+      &:hover,
+      &.active,
+      &.show {
+         background-color: var(--color-primary-light);
+         box-shadow: .25rem .25rem .75rem rgba(0, 0, 0, .5);
+      }
+
+      @media (min-width: 992px) {
+         width: 7rem;
+
+         .link-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-family: 'HelveticaNeue Bold';
+            font-weight: 700;
+         }
+      }
+
+      &#nav-user {
+         width: 3.2rem;
+      }
+
+      .link-icon {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%) scale(1.25);
+      }
+   }
+
+   .dropdown-menu {
+      @media (max-width: 991.98px) {
+         top: unset;
+         bottom: 100%;
+      }
+   }
+}
+
+/* end navbar */

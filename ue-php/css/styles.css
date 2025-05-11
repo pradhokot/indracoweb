@@ -1,0 +1,204 @@
+:root {
+   --color-primary-light: #ED1E24;
+   --color-primary: #C00006;
+   --color-primary-dark: #9E0B10;
+   --container-px: 1rem;
+}
+
+a {
+   color: var(--color-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+   line-height: inherit;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+   padding-left: var(--container-px);
+   padding-right: var(--container-px);
+}
+
+.media {
+   display: flex;
+   flex-wrap: nowrap;
+
+   .media-header {
+      width: 2.25rem;
+   }
+}
+
+.text-primary {
+   color: var(--color-primary) !important;
+}
+
+.border-primary {
+   border-color: var(--color-primary) !important;
+}
+
+.btn-primary {
+   background-color: var(--color-primary) !important;
+   color: white !important;
+   border-color: var(--color-primary-dark) !important;
+
+   &:hover,
+   &.active {
+      background-color: var(--color-primary-light) !important;
+      border-color: var(--color-primary-light) !important;
+   }
+}
+
+.form-check {
+   .form-check-input {
+      cursor: pointer;
+      border-radius: 100%;
+      border-color: var(--color-primary);
+      background-color: #f1f2f2;
+      box-shadow: none !important;
+      border-width: 2px;
+   }
+
+   .form-check-label {
+      cursor: pointer;
+   }
+
+   .form-check-input:checked[type="checkbox"] {
+      --bs-form-check-bg-image: none;
+      background-color: var(--color-primary);
+   }
+}
+
+
+
+/* ----------------------- page */
+.page {
+
+   /* ----------------------- page header */
+   .page-header {
+
+      /* ----------------------- navbar */
+      .navbar {
+         background-color: var(--color-primary-dark);
+         color: white;
+         font-size: 1.125em;
+         text-transform: capitalize;
+         padding: 1rem 0;
+
+         @media (min-width: 992px) {
+            padding: 1.5rem 0;
+         }
+
+         .nav-link,
+         .btn,
+         .dropdown-item {
+            color: currentColor;
+            font-size: inherit;
+            font-family: 'HelveticaNeue Medium';
+            font-weight: 500;
+            padding: .5rem .75rem;
+         }
+
+         .nav-link {
+
+            &>.link-icon,
+            &>.link-text {
+               opacity: .875;
+               color: currentColor;
+            }
+
+            &:hover>.link-icon,
+            &:hover>.link-text,
+            &.active>.link-icon,
+            &.active>.link-text &.show>.link-icon,
+            &.show>.link-text {
+               opacity: 1;
+            }
+         }
+
+         .dropdown-menu {
+            overflow: hidden;
+            font-size: 1rem;
+
+            .dropdown-item {
+               padding-left: 1rem;
+               padding-right: 1rem;
+               background-color: transparent;
+
+               &:focus {
+                  background-color: var(--color-primary) !important;
+                  color: white !important;
+               }
+            }
+         }
+
+         /* end dropdown menu */
+      }
+
+      /* end navbar */
+   }
+
+   /* end page header */
+
+   /* ----------------------- page-body */
+   .page-body {
+      background-image: url(../assets/img/ue-bg.jpg);
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-size: cover;
+      background-color: var(--color-primary);
+      color: white;
+      background-attachment: fixed;
+
+      &>section {
+         padding: 2rem 0;
+      }
+   }
+
+   /* end page body */
+
+   /* ----------------------- page-body */
+   .page-footer {
+
+      .footbar {
+         background-color: var(--color-primary-dark);
+         color: white;
+         padding: 2rem 0;
+
+         .nav-privacy {
+            a {
+               color: currentColor;
+               text-decoration: none;
+               opacity: .875;
+               transition: .3s ease-in-out;
+
+               &::after {
+                  content: '|';
+                  margin: 0 .5rem;
+                  color: currentColor;
+                  opacity: .5;
+               }
+
+               &:last-of-type::after {
+                  display: none;
+               }
+
+               &:hover,
+               &.active {
+                  text-decoration: underline;
+                  opacity: 1;
+               }
+            }
+         }
+      }
+   }
+
+   /* end page foooter */
+}
+
+/* end page */
