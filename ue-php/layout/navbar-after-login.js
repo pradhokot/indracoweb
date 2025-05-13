@@ -75,7 +75,7 @@ document.writeln(`
                         </a>
                      </li>
                      <li>
-                        <a href="index.html" class="dropdown-item media">
+                        <a data-bs-toggle="modal" href="#modalClose" class="dropdown-item media">
                            <span class="link-icon media-header"><i class="fas fa-arrow-right-from-bracket"></i></span>
                            <span class="link-text media-body">logout</span>
                         </a>

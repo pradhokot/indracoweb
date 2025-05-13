@@ -20,6 +20,10 @@ p {
    line-height: inherit;
 }
 
+.ratio>img {
+   transform: scale(1.1);
+}
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
    padding-left: var(--container-px);
    padding-right: var(--container-px);

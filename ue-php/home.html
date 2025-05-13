@@ -99,6 +99,38 @@
          <script src="layout/footbar.js"></script>
       </footer><!-- end page footer -->
    </div><!-- end page -->
+
+   <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+         <div class="modal-content">
+            <div class="modal-header">
+               <div class="row g-0 w-100 align-items-center" style="display: grid; grid-template-columns: 1fr auto 1fr;">
+                  <div class="col">
+                     <img src="assets/img/logo-ue.png" width="100%" height="auto" alt="" style="max-width: 4rem;">
+                  </div><!-- end col -->
+                  <div class="col">
+                     <h5 class="modal-title display-4 m-0 text-center" style="color: var(--color-primary);">
+                        <b class="fw-bold">Halo!</b>
+                     </h5>
+                  </div><!-- end col -->
+                  <div class="col position-relative h-100">
+                     <button type="button" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div><!-- end col -->
+               </div><!-- end row -->
+            </div>
+            <div class="modal-body bg-light">
+               <div class="container-fluid py-4">
+                  <p class="fs-4 text-center">
+                     Selamat Datang di website resmi <br> 
+                     <b class="fw-medium">Uang Emas Goes To Mekah</b>
+                  </p>
+               </div><!-- end container -->
+            </div>
+         </div>
+      </div>
+   </div><!-- end modal input code -->
+
+   <script src="layout/modal-confirm-close-page.js"></script>
    <script src="js/scripts.js"></script>
    <script src="js/after login/scripts.js"></script>
    <script>
@@ -106,6 +138,14 @@
          $(".title-page").text('Beranda');
          $('#nav-home').addClass('active');
          $('.navbar-start>.btn').addClass('d-none');
+
+         // Menampilkan modal saat halaman dimuat
+         $('#exampleModal').modal('show');
+
+         // Menutup modal setelah 30 detik (30000 ms)
+         setTimeout(function () {
+            $('#exampleModal').modal('hide');
+         }, 3000);
       });
    </script>
 </body>
