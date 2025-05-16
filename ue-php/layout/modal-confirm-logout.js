@@ -4,7 +4,7 @@ document.writeln(`
    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content border-primary border-3">
          <div class="modal-header border-0">
-            <img src="../assets/img/logo-ue.png" width="32" height="auto" alt="" class="me-3">
+            <img src="assets/img/logo-ue.png" width="32" height="auto" alt="" class="me-3">
             <h5 class="modal-title fs-2 text-primary">
                <b class="fw-bold">
                   Eits...
