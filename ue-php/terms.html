@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <title>Uang Emas &bull; Syarat & Ketentuan</title>
    <script src="layout/head.js"></script>
-   <title>UANG EMAS &bull; Syarat & Ketentuan</title>
    <link rel="stylesheet" href="css/blank.css">
    <style>
       * {
@@ -14,23 +14,25 @@
 <body>
    <div class="page">
       <header class="page-header">
-         <nav class="navbar p-0"></nav>
+         <script src="layout/menu.js"></script>
+         <script src="layout/topbar.js"></script>
       </header><!-- end page header -->
       <main class="page-body">
+
          <section>
             <div class="container">
-               <div class="row row-gap-4 row-gap-md-5">
-                  <div class="col col-10 col-md-8 col-lg-5 mx-auto">
-                     <div class="text-center sticky-top py-lg-5">
-                        <img src="assets/img/logo-ue.png" width="24%" height="auto" alt="">
-                        <img src="assets/img/goesto.png" width="100%" height="auto" alt="" style="margin-top: -8%;">
+               <div class="row row-gap-4">
+                  <div class="col col-12 col-lg-5">
+                     <div class="header-wrapper">
+                        <img src="../assets/img/goesto.png" width="100%" height="auto" alt="">
                      </div>
                   </div><!-- end col -->
-                  <div class="col col-12 col-lg-7 py-lg-5">
-                     <div class="text-wrapper">
+                  <div class="col col-12 col-lg-7">
 
-                        <h5 class="fs-2 text-center mb-4">
-                           Syarat dan Ketentuan
+                     <div class="text-wrapper py-lg-5">
+
+                        <h5 class="fs-3 text-center mb-4 d-none d-lg-block">
+                           <b class="fw-medium">Syarat & Ketentuan</b>
                         </h5>
                         <p class="mb-3">
                            Promo UE Goes to Mekah adalah program promosi yang diselenggarakan oleh Uang Emas, merek dagang produk yang dijual oleh PT Uang Emas (atau selanjutnya disebut "<b>Penyelenggara</b>") bekerjasama dengan PT Missi Idea Selaras yang ditunjuk sebagai agency / operator penyelenggara undian (atau selanjutnya disebut "<b>Agency Penyelenggara</b>").
@@ -336,20 +338,25 @@
                            </li>
                         </ol>
                         
-                     </div><!-- end text wrapper -->                     
+                     </div><!-- end text wrapper -->
+
                   </div><!-- end col -->
                </div><!-- end row -->
             </div><!-- end container -->
          </section>
+
       </main><!-- end page body -->
       <footer class="page-footer">
-         <div class="footbar">
-            <div class="container">
-               <p class="text-center">&copy; <script>document.write(new Date().getFullYear())</script> INDRACO. Seluruh hak dilindungi undang-undang.</p>
-            </div><!-- end container -->
-         </div>
+         <script src="layout/footbar.js"></script>
       </footer><!-- end page footer -->
    </div><!-- end page -->
-   <script src="js/scripts.js"></script>
+   <script src="layout/modal-confirm-logout.js"></script>
+   <script src="js/global.js"></script>
+   <script>
+      $(document).ready(function() {
+         $(".page-title").text('Syarat & Ketentuan');
+         $('#nav-terms').addClass('active');
+      });
+   </script>
 </body>
 </html>

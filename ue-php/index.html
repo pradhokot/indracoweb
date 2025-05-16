@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <title>Uang Emas &bull; Beranda</title>
    <script src="layout/head.js"></script>
-   <title>UANG EMAS &bull; Selamat Datang</title>
-   <link rel="stylesheet" href="css/before login/styles.css">
-   <link rel="stylesheet" href="css/before login/landing.css">
+   <link rel="stylesheet" href="css/landing.css">
    <style>
       * {
          outline: solid 1px green;
@@ -13,104 +12,178 @@
    </style>
 </head>
 <body>
-
    <div class="page">
       <header class="page-header">
-         <script src="layout/navbar-before-login.js"></script>
+         <script src="layout/menu.js"></script>
+         <script src="layout/topbar.js"></script>
       </header><!-- end page header -->
       <main class="page-body">
+
+         <!-- --------------- section landing banner -->
          <section>
-            <div class="container py-4 py-md-5">
-               <div class="row row-gap-5 align-items-lg-center">
+            <div class="container">
+               <div class="row align-items-lg-center row-gap-4">
                   <div class="col col-12 col-lg-6">
-                     <div class="d-lg-none">
-                        <img src="assets/img/m-landing.png" width="100%" height="auto" alt="">
-                     </div>
-                     <div class="d-none d-lg-block">
-                        <img src="assets/img/d-landing.png" width="100%" height="auto" alt="">
-                     </div>
-                     <p class="text-center pt-3 d-lg-none">
-                        <span>Periode : 1 Agustus - 31 Oktober 2025</span>
-                     </p>
+                     <img src="assets/img/m-landing.png" width="100%" height="auto" alt="" class="d-lg-none">
+                     <img src="assets/img/d-landing.png" width="100%" height="auto" alt="" class="d-none d-lg-block">
                   </div><!-- end col -->
-                  <div class="col col-12 col-lg-6">
-                     <div class="wrapper-desktop-right">
-                        <div class="d-none d-lg-block">
-                           <img src="assets/img/fg.png" width="100%" height="auto" alt="" style="transform: translateX(-4%);">
-                        </div>
-                        <div class="trigger-input-code">
-                           <a data-bs-toggle="modal" href="#exampleModal" class="text-decoration-none text-reset text-nowrap">
-                              <script src="layout/toggler-code.js"></script>
-                           </a>
-                        </div>
+                  <div class="col col-12 col-lg-6 position-relative">
+                     <div class="d-none d-lg-block pb-lg-5">
+                        <img src="assets/img/fg.png" width="100%" height="auto" alt="">
+                     </div>
+                     <div class="input-code">
+                        <a href="inputcode.html" class="btn p-0 border-0 shadow-none">
+                           <img src="assets/img/btn-input-code.png" width="100%" height="auto" alt="" style="max-width: 480px;">
+                        </a>
                      </div>
                   </div><!-- end col -->
                   <div class="col col-12">
-                     <p class="text-center small d-lg-flex justify-content-evenly align-items-baseline">
-                        <span class="d-none d-lg-inline">Periode : 1 Agustus - 31 Oktober 2025</span>
+                     <p class="small d-flex flex-column row-gap-2 text-center flex-md-row justify-content-md-evenly">
+                        <span>Periode : 1 Agustus - 31 Oktober 2025</span>
                         <span>*Hati-hati penipuan! Promo ini tidak dipungut biaya.</span>
-                        <br class="d-lg-none">
                         <span>*Tiket UMROH ditentukan oleh INDRACO</span>
                      </p>
                   </div><!-- end col -->
                </div><!-- end row -->
             </div><!-- end container -->
+         </section><!-- end landing banner -->
+
+         <section>
+            <div class="container">
+               <hr class="opacity-50">
+            </div><!-- end container -->
          </section>
+
+         <!-- --------------- section hadiah -->
+         <section>
+            <div class="container">
+               <h5 class="fs-2 text-center mb-5">
+                  <b class="fw-medium">Dapatkan Hadiah Menarik</b>
+               </h5>
+               <div class="row align-items-baseline justify-content-center align-items-lg-start">
+                  <div class="col col-10 col-lg-3 order-lg-3">
+                     <img src="assets/img/hadiah-umroh.png" width="100%" height="auto" alt="">
+                  </div><!-- end col -->
+                  <div class="col col-5 col-lg-2 order-lg-2 pt-lg-5">
+                     <img src="assets/img/hadiah-motor.png" width="100%" height="auto" alt="">
+                  </div><!-- end col -->
+                  <div class="col col-5 col-lg-2 order-lg-4 pt-lg-5">
+                     <img src="assets/img/hadiah-hp.png" width="100%" height="auto" alt="">
+                  </div><!-- end col -->
+                  <div class="col col-5 col-lg-2 order-lg-1">
+                     <img src="assets/img/hadiah-kaos.png" width="100%" height="auto" alt="">
+                  </div><!-- end col -->
+                  <div class="col col-5 col-lg-2 order-lg-5">
+                     <img src="assets/img/hadiah-voucher ue.png" width="100%" height="auto" alt="">
+                  </div><!-- end col -->
+               </div><!-- end row -->
+            </div><!-- end container -->
+         </section><!-- end hadiah -->
+
+         <section>
+            <div class="container">
+               <hr class="opacity-50">
+            </div><!-- end container -->
+         </section>
+
+         <!-- --------------- section berita -->
+         <section>
+            <div class="container">
+               <div class="row row-gap-4 gx-lg-5">
+                  <div class="col col-12 col-lg-6">
+                     <div class="ratio ratio-16x9 bg-dark border border-3 border-white">
+                        <iframe src="https://www.youtube.com/embed/VONPiPgQWgk?si=6N_7P09_qSazT1M0" frameborder="0"></iframe>
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col col-12 col-lg-6">
+                     <ul class="list-group list-group-flush bg-transparent news-list">
+                        <li class="list-group-item px-0 bg-transparent news-item">
+                           <div class="card">
+                              <div class="row g-0">
+                                 <div class="col-4">
+                                    <div class="card-body">
+                                       <div class="ratio ratio-1x1 rounded">
+                                          <img src="..." class="object-fit-cover" alt="...">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-8">
+                                    <div class="card-body d-flex flex-column h-100">
+                                       <h5 class="card-title flex-grow-0"><b class="fw-medium">News 1</b></h5>
+                                       <p class="card-text flex-grow-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                       <p class="card-text flex-grow-0">
+                                          <small class="opacity-75">Last updated 3 mins ago</small>
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="list-group-item px-0 bg-transparent news-item">
+                           <div class="card">
+                              <div class="row g-0">
+                                 <div class="col-4">
+                                    <div class="card-body">
+                                       <div class="ratio ratio-1x1 rounded">
+                                          <img src="..." class="object-fit-cover" alt="...">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-8">
+                                    <div class="card-body d-flex flex-column h-100">
+                                       <h5 class="card-title flex-grow-0"><b class="fw-medium">News 2</b></h5>
+                                       <p class="card-text flex-grow-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                       <p class="card-text flex-grow-0">
+                                          <small class="opacity-75">Last updated 3 mins ago</small>
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="list-group-item px-0 bg-transparent news-item">
+                           <div class="card">
+                              <div class="row g-0">
+                                 <div class="col-4">
+                                    <div class="card-body">
+                                       <div class="ratio ratio-1x1 rounded">
+                                          <img src="..." class="object-fit-cover" alt="...">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-8">
+                                    <div class="card-body d-flex flex-column h-100">
+                                       <h5 class="card-title flex-grow-0"><b class="fw-medium">News 3</b></h5>
+                                       <p class="card-text flex-grow-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                       <p class="card-text flex-grow-0">
+                                          <small class="opacity-75">Last updated 3 mins ago</small>
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div><!-- end col -->
+               </div><!-- end row -->
+            </div><!-- end container -->
+         </section><!-- end berita -->
+
       </main><!-- end page body -->
-      <footer class="page-footer d-none d-lg-block">
+      <footer class="page-footer">
          <script src="layout/footbar.js"></script>
       </footer><!-- end page footer -->
    </div><!-- end page -->
 
-   <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-         <div class="modal-content">
-            <div class="modal-header">
-               <div class="row g-0 w-100 align-items-center" style="display: grid; grid-template-columns: 1fr auto 1fr;">
-                  <div class="col">
-                     <img src="assets/img/logo-ue.png" width="100%" height="auto" alt="" style="max-width: 4rem;">
-                  </div><!-- end col -->
-                  <div class="col">
-                     <h5 class="modal-title display-4 m-0 text-center" style="color: var(--color-primary);">
-                        <b class="fw-bold">Oops!</b>
-                     </h5>
-                  </div><!-- end col -->
-                  <div class="col position-relative h-100">
-                     <button type="button" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div><!-- end col -->
-               </div><!-- end row -->
-            </div>
-            <div class="modal-body bg-light">
-               <div class="container-fluid py-4">
-                  <p class="fs-4 text-center">
-                     Kamu belum login/registrasi di website <br class="d-none d-md-inline">
-                     UANG EMAS GOES TO MEKAH
-                  </p>
-               </div><!-- end container -->
-            </div>
-            <div class="modal-footer flex-lg-nowrap">
-               <div class="row w-100 gx-2 row-gap-2 row-cols-1 row-cols-md-2">
-                  <div class="col">
-                     <a href="login.html" class="btn btn-lg btn-success w-100">
-                        Login
-                     </a>
-                  </div><!-- end col -->
-                  <div class="col">
-                     <a href="register.html" class="btn btn-lg btn-warning w-100">
-                        Registrasi
-                     </a>
-                  </div><!-- end col -->
-               </div><!-- end row -->
-            </div>
-         </div>
-      </div>
-   </div><!-- end modal input code -->
-
-   <script src="js/scripts.js"></script>
-   <script src="js/before login/scripts.js"></script>
+   <script src="layout/modal-warning-noreg.js"></script>
+   <script src="layout/modal-greetings.js"></script>
+   <script src="layout/modal-confirm-logout.js"></script>
+   <script src="js/global.js"></script>
    <script>
       $(document).ready(function() {
+         $(".page-title").text('Beranda');
          $('#nav-home').addClass('active');
+         $('.toggler-back').hide();
       });
    </script>
 </body>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Uang Emas &bull; Profil</title>
+   <script src="layout/head.js"></script>
+   <style>
+      * {
+         outline: solid 1px green;
+         outline: solid 1px transparent;
+      }
+   </style>
+</head>
+<body>
+   <div class="page">
+      <header class="page-header">
+         <script src="layout/menu.js"></script>
+         <script src="layout/topbar.js"></script>
+      </header><!-- end page header -->
+      <main class="page-body">
+
+         <section>
+            <div class="container">
+               <div class="row row-cols-1 row-cols-lg-2 row-gap-4">
+                  <div class="col">
+                     <div class="header-wrapper">
+                        <img src="../assets/img/goesto.png" width="100%" height="auto" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col">
+
+                     <form action="" class="needs-validation" novalidate>
+                        <div class="card rounded-4 border-3 border-primary p-4 p-xl-5 mx-auto shadow" style="max-width: 30rem;">
+                           <header class="mb-4 mb-lg-5">
+                              <div class="position-relative mx-auto" style="width: 9rem;">
+                                 <div class="ratio ratio-1x1 position-relative border border-5 border-primary rounded-circle overflow-hidden">
+                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 w-100 h-100 bg-light z-1 d-flex justify-content-center align-items-center text-primary">
+                                       <i class="fas fa-user fa-5x"></i>
+                                    </div>
+                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center z-2 text-light mt-4">
+                                       <i class="fas fa-camera fa-lg"></i>
+                                    </div>
+                                    <!-- <img src="assets/img/user.jpg" class="object-fit-cover z-3" alt=""> -->
+                                 </div>
+                                 <input type="file" class="form-control rounded-0 position-absolute top-50 start-50 translate-middle w-100 h-100 opacity-0 z-2" id="inputPhotoProfile">
+                              </div>
+                           </header>
+                           <div class="form-group mb-3">
+                              <label for="" class="form-label mb-1 small">Nama Lengkap :</label>
+                              <input type="text" class="form-control border-2 border-primary" placeholder="*Nama Lengkap (Sesuai KTP)" value="Yoggi Dhimas Pradhokot" required>
+                              <div class="invalid-feedback">
+                                 Tuliskan Nama Lengkap Anda
+                              </div>
+                           </div>
+                           <div class="form-group mb-3">
+                              <label for="" class="form-label mb-1 small">Alamat Email :</label>
+                              <input type="email" class="form-control border-2 border-primary" placeholder="*Alamat Email" value="yoggi.supresso@gmail.com" required>
+                              <div class="invalid-feedback">
+                                 Tuliskan Alamat Email Anda
+                              </div>
+                           </div>
+                           <div class="from-group mb-3">
+                              <label for="" class="form-label mb-1 small">Nomor Whatsapp :</label>
+                              <input type="number" class="form-control border-2 border-primary" placeholder="*No. Whatsapp" value="081333322610" required>
+                              <div class="invalid-feedback">
+                                 Inputkan Nomor Whatsapp Anda
+                              </div>
+                           </div>
+                           <div class="from-group mb-5">
+                              <label for="" class="form-label mb-1 small">Nomor KTP/ SIM :</label>
+                              <input type="number" class="form-control border-2 border-primary" placeholder="*No. KTP" value="94792070700000" required>
+                              <div class="invalid-feedback">
+                                 Inputkan Nomor KTP Anda
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <button type="button" class="btn btn-lg btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modal-update-profile">
+                                 <i class="fas fa-floppy-disk me-2"></i> Simpan Perubahan
+                              </button>
+                           </div>
+                        </div>
+                     </form>
+
+                  </div><!-- end col -->
+               </div><!-- end row -->
+            </div><!-- end container -->
+         </section>
+
+      </main><!-- end page body -->
+      <footer class="page-footer">
+         <script src="layout/footbar.js"></script>
+      </footer><!-- end page footer -->
+   </div><!-- end page -->
+
+   <script src="layout/modal-update-profile.js"></script>
+   <script src="layout/modal-confirm-logout.js"></script>
+   <script src="js/global.js"></script>
+   <script>
+      $(document).ready(function() {
+         $(".page-title").text('Profil Anda');
+         $('#nav-profile').addClass('active');
+      });
+   </script>
+</body>
+</html>

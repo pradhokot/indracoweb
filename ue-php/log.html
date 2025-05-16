@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Uang Emas &bull; Aktifitas</title>
+   <script src="layout/head.js"></script>
+   <link rel="stylesheet" href="css/blank.css">
+   <style>
+      * {
+         outline: solid 1px green;
+         outline: solid 1px transparent;
+      }
+   </style>
+</head>
+<body>
+   <div class="page">
+      <header class="page-header">
+         <script src="layout/menu.js"></script>
+         <script src="layout/topbar.js"></script>
+      </header><!-- end page header -->
+      <main class="page-body">
+
+         <section>
+            <div class="container">
+               <div class="row row-gap-4">
+                  <div class="col col-12 col-lg-5">
+                     <div class="header-wrapper">
+                        <img src="../assets/img/goesto.png" width="100%" height="auto" alt="">
+                     </div>
+                  </div><!-- end col -->
+                  <div class="col col-12 col-lg-7">
+
+                     <h5 class="fs-3 text-center mb-4 d-none d-lg-block">
+                        <b class="fw-medium">Aktivitas Anda</b>
+                     </h5>
+                     <ul class="list-unstyled log-list" id="log">
+                        <li class="log-item mb-4">
+                           <header class="mb-2">
+                              <small>Sabtu, 10 Mei 2025</small>
+                           </header>
+                           <ul class="list-group list-group-flush rounded border border-3 border-primary shadow">
+                              <li class="list-group-item border-primary">
+                                 <button class="btn px-3 w-100 rounded-0 border-0" data-bs-toggle="collapse" data-bs-target="#collog1">
+                                    <b class="fw-bold float-start">Registrasi</b>
+                                    <small class="float-end">10:00 AM</small>
+                                 </button>
+                                 <div class="collapse" id="collog1" data-bs-parent="#log">
+                                    <div class="p-3">
+                                       <p>
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate architecto maxime qui consectetur cumque temporibus eaque, asperiores totam quae? Totam, error nihil ea repudiandae dicta magni recusandae et corporis.
+                                       </p>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="list-group-item border-primary">
+                                 <button class="btn px-3 w-100 rounded-0 border-0" data-bs-toggle="collapse" data-bs-target="#collog2">
+                                    <b class="fw-bold float-start">Login</b>
+                                    <small class="float-end">10:10 AM</small>
+                                 </button>
+                                 <div class="collapse" id="collog2" data-bs-parent="#log">
+                                    <div class="p-3">
+                                       <p>
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate architecto maxime qui consectetur cumque temporibus eaque, asperiores totam quae? Totam, error nihil ea repudiandae dicta magni recusandae et corporis.
+                                       </p>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="list-group-item border-primary">
+                                 <button class="btn px-3 w-100 rounded-0 border-0" data-bs-toggle="collapse" data-bs-target="#collog3">
+                                    <b class="fw-bold float-start">Input Kode</b>
+                                    <small class="float-end">10:15 AM</small>
+                                 </button>
+                                 <div class="collapse" id="collog3" data-bs-parent="#log">
+                                    <div class="p-3">
+                                       <p>
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate architecto maxime qui consectetur cumque temporibus eaque, asperiores totam quae? Totam, error nihil ea repudiandae dicta magni recusandae et corporis.
+                                       </p>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                        </li><!-- end log item -->
+                        <li class="log-item mb-4">
+                           <header class="mb-2">
+                              <small>Sabtu, 14 Mei 2025</small>
+                           </header>
+                           <ul class="list-group list-group-flush rounded border border-3 border-primary shadow">
+                              <li class="list-group-item border-primary">
+                                 <button class="btn px-3 w-100 rounded-0 border-0" data-bs-toggle="collapse" data-bs-target="#collog0">
+                                    <b class="fw-bold float-start">Input Kode</b>
+                                    <small class="float-end">10:00 AM</small>
+                                 </button>
+                                 <div class="collapse" id="collog0" data-bs-parent="#log">
+                                    <div class="p-3">
+                                       <p>
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate architecto maxime qui consectetur cumque temporibus eaque, asperiores totam quae? Totam, error nihil ea repudiandae dicta magni recusandae et corporis.
+                                       </p>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul><!-- end log list -->
+
+                  </div><!-- end col -->
+               </div><!-- end row -->
+            </div><!-- end container -->
+         </section>
+
+      </main><!-- end page body -->
+      <footer class="page-footer">
+         <script src="layout/footbar.js"></script>
+      </footer><!-- end page footer -->
+   </div><!-- end page -->
+   <script src="layout/modal-confirm-logout.js"></script>
+   <script src="js/global.js"></script>
+   <script>
+      $(document).ready(function() {
+         $(".page-title").text('Aktifitas');
+         $('#nav-log').addClass('active');
+      });
+   </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.input-code {
+   text-align: center;
+   
+   @media (min-width: 992px) {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: auto;
+   }
+}
+
+.news-list>.news-item {
+   padding: 1rem 0;
+   border-color: rgba(255, 255, 255, .5);
+   /* font-size: .875em; */
+
+   @media (min-width: 992px) {
+      &:first-child {
+         padding-top: 0;
+      }
+   }
+}

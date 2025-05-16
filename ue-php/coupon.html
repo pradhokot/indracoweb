@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Uang Emas &bull; Kupon</title>
+   <script src="layout/head.js"></script>
+   <link rel="stylesheet" href="css/blank.css">
+   <style>
+      * {
+         outline: solid 1px green;
+         outline: solid 1px transparent;
+      }
+   </style>
+</head>
+<body>
+   <div class="page">
+      <header class="page-header">
+         <script src="layout/menu.js"></script>
+         <script src="layout/topbar.js"></script>
+      </header><!-- end page header -->
+      <main class="page-body">
+
+         <section>
+            <div class="container">
+               <h5 class="fs-3 mb-4 d-none d-lg-block">
+                  <b class="fw-medium">
+                     Kupon yang Anda Miliki
+                  </b>
+               </h5>
+               <ul class="list-group list-group-flush text-nowrap text-center rounded border border-3 border-primary shadow">
+                  <li class="list-group-item list-group-item-action py-3 border-primary">
+                     <div class="row row-gap-3 align-items-center">
+                        <div class="col"><b class="fw-bold">L7GST90</b></div><!-- end col -->
+                        <div class="col">02 Mei 2025</div><!-- end col -->
+                        <div class="col"><span class="text-success">VALID</span><!-- <span class="text-danger">INVALID</span> --></div><!-- end col -->
+                        <div class="col"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-preview-ticket"><i class="fas fa-ticket"></i> Preview</button></div><!-- end col -->
+                        <div class="col">E-Coupon</div><!-- end col -->
+                        <div class="col">-</div><!-- end col -->
+                     </div><!-- end row -->
+                  </li>
+                  <li class="list-group-item list-group-item-action py-3 border-primary">
+                     <div class="row row-gap-3 align-items-center">
+                        <div class="col"><b class="fw-bold">L7GST90</b></div><!-- end col -->
+                        <div class="col">02 Mei 2025</div><!-- end col -->
+                        <div class="col"><span class="text-success">VALID</span><!-- <span class="text-danger">INVALID</span> --></div><!-- end col -->
+                        <div class="col"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-preview-ticket"><i class="fas fa-ticket"></i> Preview</button></div><!-- end col -->
+                        <div class="col">E-Coupon</div><!-- end col -->
+                        <div class="col">-</div><!-- end col -->
+                     </div><!-- end row -->
+                  </li>
+                  <li class="list-group-item list-group-item-action py-3 border-primary">
+                     <div class="row row-gap-3 align-items-center">
+                        <div class="col"><b class="fw-bold">L7GST90</b></div><!-- end col -->
+                        <div class="col">02 Mei 2025</div><!-- end col -->
+                        <div class="col"><span class="text-success">VALID</span><!-- <span class="text-danger">INVALID</span> --></div><!-- end col -->
+                        <div class="col"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-preview-ticket"><i class="fas fa-ticket"></i> Preview</button></div><!-- end col -->
+                        <div class="col">E-Coupon</div><!-- end col -->
+                        <div class="col">-</div><!-- end col -->
+                     </div><!-- end row -->
+                  </li>
+               </ul>
+            </div><!-- end container -->
+         </section>
+
+      </main><!-- end page body -->
+      <footer class="page-footer">
+         <script src="layout/footbar.js"></script>
+      </footer><!-- end page footer -->
+   </div><!-- end page -->
+   <script src="layout/modal-preview-coupon.js"></script>
+   <script src="layout/modal-confirm-logout.js"></script>
+   <script src="js/global.js"></script>
+   <script>
+      $(document).ready(function() {
+         $(".page-title").text('Kupon Anda');
+         $('#nav-coupon').addClass('active');
+      });
+   </script>
+</body>
+</html>

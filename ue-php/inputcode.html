@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>Uang Emas &bull; Login</title>
+   <title>Uang Emas &bull; Input Kode</title>
    <script src="layout/head.js"></script>
    <style>
       * {
@@ -32,36 +32,36 @@
                         <div class="card rounded-4 border-3 border-primary p-4 p-xl-5 mx-auto shadow" style="max-width: 30rem;">
                            <h5 class="fs-3 text-center text-primary mb-4">
                               <b class="fw-bold">
-                                 Login
+                                 Masukkan Kode Unik
                               </b>
                            </h5>
                            <div class="form-group mb-3">
-                              <input type="email" class="form-control border-2 border-primary" placeholder="*Email" required>
+                              <input type="number" class="form-control border-2 border-primary" placeholder="*KODE UNIK" required>
                               <div class="invalid-feedback">
-                                 Alamat Email Anda belum terdaftar
+                                 Kode Unik yang anda masukkan tidak terdaftar/ sudah digunakan!
                               </div>
                            </div>
                            <div class="form-group mb-4">
-                              <div class="input-group mb-2">
-                                 <input type="password" class="form-control border-2 border-primary border-end-0" placeholder="Password" required>
-                                 <button class="btn border border-2 border-primary shadow-none border-start-0 rounded-end">
-                                    <i class="fas fa-eye"></i>
-                                    <i class="fas fa-eye-slash"></i>
-                                 </button>
-                                 <div class="invalid-feedback">Password yang Anda masukkan salah</div>
+                              <label for="" class="form-label mb-2"> Upload foto Kode Unik pada kupon undian yang Anda dapatkan</label>
+                              <div class="position-relative mb-2">
+                                 <div class="ratio ratio-4x3 position-relative border border-2 border-primary rounded overflow-hidden">
+                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 w-100 h-100 bg-light opacity-50 z-1"></div>
+                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center z-2">
+                                       <i class="fas fa-camera fa-5x"></i>
+                                    </div>
+                                    <!-- <img src="assets/img/user.jpg" class="object-fit-cover z-3" alt=""> -->
+                                 </div>
+                                 <input type="file" class="form-control rounded-0 position-absolute top-50 start-50 translate-middle w-100 h-100 opacity-0 z-2" id="inputPhotoProfile">
                               </div>
-                              <div class="form-text text-end">
-                                 <a href="#" class="text-primary">Forgot Password?</a>
-                              </div>
+                              <p>
+                                 <small>*Peserta wajib menyimpan kartu khusus yang bertuliskan kode unik sebagai syarat validasi bila terpilih menjadi pemenang undian. </small>
+                              </p>
                            </div>
-                           <div class="form-group mb-4">
-                              <button type="submit" class="btn btn-lg btn-primary w-100">
-                                 Login
+                           <div class="form-group">
+                              <button type="submit" class="btn btn-lg btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modal-add-coupon">
+                                 Kirim
                               </button>
                            </div>
-                           <p class="text-center">
-                              Belum memiliki Akun? Silahkan <a href="register.html" class="text-primary">Registrasi</a>
-                           </p>
                         </div>
                      </form>
 
@@ -75,12 +75,11 @@
          <script src="layout/footbar.js"></script>
       </footer><!-- end page footer -->
    </div><!-- end page -->
-   <script src="layout/modal-confirm-logout.js"></script>
+   <script src="layout/modal-add-coupon.js"></script>
    <script src="js/global.js"></script>
    <script>
       $(document).ready(function() {
-         $(".page-title").text('Login');
-         $('#nav-login').addClass('active');
+         $(".page-title").text('Input Kode');
       });
    </script>
 </body>
